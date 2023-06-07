@@ -1,0 +1,12 @@
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\bin\Debug\net6.0\SocketLibrary.deps.json
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\bin\Debug\net6.0\SocketLibrary.dll
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\bin\Debug\net6.0\SocketLibrary.pdb
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\SocketLibrary.csproj.AssemblyReference.cache
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\SocketLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\SocketLibrary.AssemblyInfoInputs.cache
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\SocketLibrary.AssemblyInfo.cs
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\SocketLibrary.csproj.CoreCompileInputs.cache
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\SocketLibrary.dll
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\refint\SocketLibrary.dll
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\SocketLibrary.pdb
+C:\Users\boong\source\repos\DistributedSystemSales\SocketLib\obj\Debug\net6.0\ref\SocketLibrary.dll
