@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\SocketLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\SocketLibrary.csproj",
       "projectName": "SocketLibrary",
-      "projectPath": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\SocketLibrary.csproj",
+      "projectPath": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\SocketLibrary.csproj",
       "packagesPath": "C:\\Users\\boong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\obj\\",
+      "outputPath": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\boong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\ServerMain\\ServerMain.csproj": {}
+    "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\ServerMain\\ServerMain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\ServerMain\\ServerMain.csproj": {
+    "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\ServerMain\\ServerMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\ServerMain\\ServerMain.csproj",
+        "projectUniqueName": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\ServerMain\\ServerMain.csproj",
         "projectName": "ServerMain",
-        "projectPath": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\ServerMain\\ServerMain.csproj",
+        "projectPath": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\ServerMain\\ServerMain.csproj",
         "packagesPath": "C:\\Users\\boong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\ServerMain\\obj\\",
+        "outputPath": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\ServerMain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\boong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\SocketLibrary.csproj": {
-                "projectPath": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\SocketLibrary.csproj"
+              "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\SocketLibrary.csproj": {
+                "projectPath": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\SocketLibrary.csproj"
               }
             }
           }
@@ -43,6 +43,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\SocketLibrary.csproj": {
+    "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\SocketLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\SocketLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\SocketLibrary.csproj",
         "projectName": "SocketLibrary",
-        "projectPath": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\SocketLibrary.csproj",
+        "projectPath": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\SocketLibrary.csproj",
         "packagesPath": "C:\\Users\\boong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\boong\\source\\repos\\DistributedSystemSales\\SocketLib\\obj\\",
+        "outputPath": "C:\\Users\\boong\\Documents\\mine\\DistributedSystem\\SocketLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\boong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

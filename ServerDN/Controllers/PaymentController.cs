@@ -10,9 +10,10 @@ namespace ServerDN.Controllers
     [ApiController]
     public class PaymentController : ControllerBase
     {
-        [HttpGet]
-        public string Get()
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
+            int quantity = Int32.Parse(HttpContext.Request.Query["quantity"]);
             IPAddress ipAddress = IPAddress.Parse(SocketLib.ServerAddress);
             int port = SocketLib.port;
 
@@ -20,11 +21,13 @@ namespace ServerDN.Controllers
             Socket clientSocket = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
             clientSocket.Connect(new IPEndPoint(ipAddress, port));
             SocketLib sk = new SocketLib(clientSocket);
-            sk.SendMsg("sell");
+            sk.SendMsg("Order," + id + ',' + quantity);
             string msg = sk.ReceiveMsg();
+            Console.WriteLine(msg);
+            clientSocket.Shutdown(SocketShutdown.Both);
             clientSocket.Close();
-            return msg;
+            return Ok(msg);
         }
-     
+
     }
 }
